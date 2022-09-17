@@ -1,0 +1,101 @@
+.UserProfile-outerContainer {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.User-Profile{
+    background-color: #1e847f;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.User-Profile .heading{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+
+.data-row{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    
+    
+}
+
+.data-row span {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+
+/* .update-password{
+    background-color: #ffc13b;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px;
+}
+
+.update-password p {
+    font-size: 30px;
+    color: black;
+} */
+
+.outer-container-NOT{
+    display: flex;
+    margin-top: -90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container-NOT{
+    background-color: #1e847f;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    
+}
+
+.inner-container-NOT p {
+    font-size: xx-large;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container-NOT img {
+    width: 200px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 120px;
+}
+
+@media screen and (max-width:464px) {
+    .UserProfile-outerContainer {
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .outer-container-NOT{
+       width: 300px;
+       margin-top: 20px;
+    }
+    .inner-container-NOT p {
+        font-size: large;
+    }
+    .inner-container-NOT img{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,122 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(214, 210, 210, 0.791);
+    color: black;
+    margin: 5px;
+    width: 500px;
+    /* border: 1px solid grey; */
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    height: 300px;
+}
+.product-container:hover{
+    box-shadow: 0px 0px 5px 0px grey;
+    cursor: pointer;
+}
+.product-container img {
+    /* height: 250px; */
+    width: 200px;
+    max-height: 250px;
+}
+
+.product-details{
+    width: 50%;
+}
+
+.product-title{
+    font-size: 35px;
+    font-weight: 600;
+    border: none;
+    background-color: rgba(220, 216, 216, 0.791);
+    
+}
+.product-title:hover{
+    color: #ffc13b;
+}
+
+.price-container{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    
+}
+
+.mrp , .discount , .saved {
+    display: flex;
+    margin: 0px;
+    line-height: 0px;
+    padding: 5px;
+    
+}
+
+.saleprice  {
+    color: rgb(38, 188, 83);
+    margin-left: 5px;
+    font-size: large;
+
+}
+
+.mrp .rate {
+    color: red;
+    margin-left: 5px;
+    /* border: 1px solid; */
+    text-decoration: line-through;
+} 
+.yousave{
+    color: rgb(45, 41, 44);
+}
+.buy-cart{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    justify-content: left;
+
+}
+
+.buy-cart .btn-buy{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buy-cart .btn-buy:hover{
+    /* transition: all ease-in; */
+    background-color: white;
+    color: green;
+    /* border: 1px solid green; */
+    box-shadow: 0px 0px 5px 0px green;
+}
+
+.buy-cart .btn-cart{
+    background-color: #ffc13b;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buy-cart .btn-cart:hover{
+    /* transition: all ease-in; */
+    background-color: white;
+    color: #ffc13b;
+    /* border: 1px solid #ffc13b; */
+    box-shadow: 0px 0px 5px 0px #ffc13b;
+}
+
+@media screen and (max-width:464px) {
+    .product-container img{
+        padding: 25px;
+    }
+    .product-title{
+        padding: 20px;
+    }
+}
+
+

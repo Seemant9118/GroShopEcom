@@ -1,0 +1,18 @@
+.slider-head {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slider-head p {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(54, 156, 79);
+}
+
+@media screen and (max-width:464px) {
+    .slider-head p {
+        font-size: 35px;
+        text-decoration: underline;
+    }
+}
