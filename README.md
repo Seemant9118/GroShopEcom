@@ -2,6 +2,9 @@
 
 Groshop Ecom is an ecommerce application built using React.js, CSS, Bootstrap, Firebase, Firestore, and Firebase Authentication. It provides users with the ability to browse and purchase products online. This README.md file provides an overview of the application, its features, and instructions for setting it up and running it locally.
 
+## Live Link 🎉
+https://ecom-d57d8.web.app/
+
 ## Features
 
 - User Registration and Authentication: Users can create an account and log in using Firebase Authentication.
